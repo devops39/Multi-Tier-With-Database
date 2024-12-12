@@ -109,18 +109,18 @@
 	
 	</build>
 
-		<distributionManagement>
+  <distributionManagement>
     <!-- Configuration for releases -->
     <repository>
-      <id>nexus-releases</id>
-      <name>Nexus Releases</name>
+      <id>maven-releases</id>
+      <name>Maven Releases</name>
       <url>http://192.168.33.10:8081/repository/maven-releases/</url>
     </repository>
 
     <!-- Configuration for snapshots -->
     <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <name>Nexus Snapshots</name>
+      <id>maven-snapshots</id>
+      <name>Maven Snapshots</name>
       <url>http://192.168.33.10:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
